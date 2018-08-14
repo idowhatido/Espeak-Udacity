@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="88dp"
+        android:id="@+id/whole">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:contentDescription="@string/one_esp"
+            android:layout_height="88dp"
+            android:id="@+id/image"
+            android:background="@color/background_tan"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="vertical"
+            android:id="@+id/text_container"
+            android:layout_toRightOf="@+id/image"
+            android:layout_toEndOf="@+id/image">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/one_esp"
+            android:id="@+id/spanish_textview"
+            android:textSize="25sp"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="@string/one"
+            android:id="@+id/english_textView"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/one"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/baseline_play_arrow_black_36"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#ffbe0b">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/number"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Numbers"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#fb5607">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/color"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/colors"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#8338ec">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/family"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/family"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#3a86ff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/phrase"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/phrases"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Espeak</string>
+    <string name="Numbers">Numbers/Números</string>
+    <string name="colors">Colors/Colores</string>
+    <string name="family">Family/Familia</string>
+    <string name="phrases">Phrases/Frases</string>
+
+
+    //Strings for NUmbers
+
+    <string name="one">One</string>
+    <string name="one_esp">Uno</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

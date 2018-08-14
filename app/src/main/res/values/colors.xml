@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff007f</color>
+    <color name="colorPrimaryDark">#e75480 </color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#FFFFFF</color>
+zs
+    //Background tan color
+    <color name="background_tan">#FFF7DA</color>
+
+    //Number Category color
+    <color name="Number_Category">#ffbe0b</color>
+
+    //Color Category color
+    <color name="Color_Category">#fb5607</color>
+
+    // Family Category color
+    <color name="Family_Category">#8338ec</color>
+
+    // Phrase category color
+    <color name="Phrase_Category">#3a86ff</color>
+
+
+</resources>
